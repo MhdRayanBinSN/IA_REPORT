@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.24)  13 APR 2026 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.24)  14 APR 2026 21:58
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./Latex-KTUProjectBTechNov24Update.tex
-(Latex-KTUProjectBTechNov24Update.tex
+**"c:/Users/Rayan/Desktop/Main Project/Report/Latex-KTUProjectBTechNov24Update.tex"
+(c:/Users/Rayan/Desktop/Main Project/Report/Latex-KTUProjectBTechNov24Update.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -23,27 +24,20 @@ File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
-)
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-)
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
-
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen142
@@ -51,20 +45,18 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip51
+
 For additional information on amsmath, use the `?' option.
 (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen144
-))
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen145
-)
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count271
@@ -114,10 +106,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-
 \f@nch@headwidth=\skip54
 \f@nch@offset@elh=\skip55
 \f@nch@offset@erh=\skip56
@@ -133,41 +123,33 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip66
 \f@nch@widthR=\skip67
 \@temptokenb=\toks23
-)
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-)
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip68
 \fb@frw=\dimen153
 \fb@frh=\dimen154
 \FrameRule=\dimen155
 \FrameSep=\dimen156
-)
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/a4wide\a4wide.sty
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/a4wide\a4wide.sty
 Package: a4wide 1994/08/30
-
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/ntgclass\a4.sty
+ (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/ntgclass\a4.sty
 Package: a4 2023/01/10 v1.2g A4 based page layout
-))
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+)) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count283
 \float@exts=\toks24
 \float@box=\box54
 \@float@everytoks=\toks25
 \@floatcapt=\box55
-)
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count284
@@ -182,9 +164,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen163
 \Gm@layoutvoffset=\dimen164
 \Gm@dimlist=\toks26
-
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+ (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen165
 \ar@mcellbox=\box56
@@ -193,10 +173,9 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \extratabsurround=\skip69
 \backup@length=\skip70
 \ar@cellbox=\box57
-)
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+ (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count287
@@ -217,24 +196,17 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count302
 \c@blind@pangramcount=\count303
 \c@blind@pangrammax=\count304
-)
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2025-01-18 L3 programming layer (loader) 
-
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
+ (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count305
 \l__pdf_internal_box=\box58
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
-
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
-e.sty
+ (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
 Package: xparse 2024-08-16 L3 Experimental document command parser
-)
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count306
 ))
@@ -243,23 +215,21 @@ Patched @makechapterhead
 (Latex-KTUProjectBTechNov24Update.aux)
 \openout1 = `Latex-KTUProjectBTechNov24Update.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+ (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count307
 \scratchdimen=\dimen167
@@ -272,15 +242,10 @@ ii
 \MPnumerator=\count311
 \makeMPintoPDFobject=\count312
 \everyMPtoPDFconversion=\toks29
-)
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
@@ -320,19 +285,18 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <ktu.png, id=1, 121.45375pt x 182.6825pt>
 File: ktu.png Graphic file (type png)
 <use ktu.png>
-Package pdftex.def Info: ktu.png  used on input line 81.
-(pdftex.def)             Requested size: 36.43639pt x 54.80516pt.
+Package pdftex.def Info: ktu.png  used on input line 84.
+(pdftex.def)             Requested size: 72.87279pt x 109.61034pt.
 <cape.png, id=3, 1541.76pt x 1027.84pt>
 File: cape.png Graphic file (type png)
 <use cape.png>
-Package pdftex.def Info: cape.png  used on input line 94.
-(pdftex.def)             Requested size: 92.5016pt x 61.66774pt.
+Package pdftex.def Info: cape.png  used on input line 97.
+(pdftex.def)             Requested size: 138.75241pt x 92.5016pt.
 
 
 [1
 
-{C:/Users/Rayan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ktu.png> <
-./cape.png>]
+{C:/Users/Rayan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ktu.png> <./cape.png>]
 
 [2
 
@@ -349,22 +313,12 @@ Package pdftex.def Info: cape.png  used on input line 94.
 [6
 
 ]
-Overfull \hbox (54.72894pt too wide) in paragraph at lines 143--152
- [][] 
- []
-
-
 
 [7]
 
 [8
 
 ]
-Overfull \hbox (54.72894pt too wide) in paragraph at lines 160--167
- [][] 
- []
-
-
 
 [9]
 
@@ -376,14 +330,8 @@ Overfull \hbox (54.72894pt too wide) in paragraph at lines 160--167
 <cape.PNG, id=47, 1541.76pt x 1027.84pt>
 File: cape.PNG Graphic file (type png)
 <use cape.PNG>
-Package pdftex.def Info: cape.PNG  used on input line 228.
+Package pdftex.def Info: cape.PNG  used on input line 231.
 (pdftex.def)             Requested size: 154.18503pt x 102.79001pt.
-
-Overfull \hbox (12.78918pt too wide) in paragraph at lines 238--241
-\OT1/cmr/bx/n/10 Alen Se-bas-tian (KGR22CS012),Muhammed Rayan(KGR22CS066),Subas
-h M(KGR22CS090), 
- []
-
 
 
 [13 <./cape.PNG>]
@@ -439,147 +387,139 @@ Chapter 2.
 ]
 Chapter 3.
 
-Overfull \hbox (9.92812pt too wide) in paragraph at lines 382--382
-[]\OT1/cmr/bx/n/14.4 Toward hu-man intervention-free clin-i-cal di-ag-no-sis of
- in-tracra-
+Overfull \hbox (9.92812pt too wide) in paragraph at lines 404--404
+[]\OT1/cmr/bx/n/14.4 Toward hu-man intervention-free clin-i-cal di-ag-no-sis of in-tracra-
  []
 
 
 
 [5]
+Underfull \hbox (badness 4001) in paragraph at lines 430--430
+[]\OT1/cmr/bx/n/14.4 Multi-centric AI Model for Un-rup-tured In-tracra-nial
+ []
+
+
 
 [6]
+
+[7]
+
+[8]
 Chapter 4.
 
 
-[7
+[9
 
 ]
 
-[8]
-<system.png, id=110, 1861.95625pt x 1005.7575pt>
+[10]
+<system.png, id=118, 1861.95625pt x 1005.7575pt>
 File: system.png Graphic file (type png)
 <use system.png>
-Package pdftex.def Info: system.png  used on input line 456.
+Package pdftex.def Info: system.png  used on input line 504.
 (pdftex.def)             Requested size: 452.9679pt x 244.6709pt.
-<usecase.png, id=111, 1628.0825pt x 932.48375pt>
+
+
+[11 <./system.png>]
+
+[12]
+
+[13]
+Overfull \hbox (68.3289pt too wide) in paragraph at lines 602--623
+ [][] 
+ []
+
+<usecase.png, id=130, 1628.0825pt x 932.48375pt>
 File: usecase.png Graphic file (type png)
 <use usecase.png>
-Package pdftex.def Info: usecase.png  used on input line 469.
+Package pdftex.def Info: usecase.png  used on input line 636.
 (pdftex.def)             Requested size: 407.01962pt x 233.12036pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[14
 
-
-[9 <./system.png>]
-<dfd.png, id=117, 371.58826pt x 181.8795pt>
+]
+<dfd.png, id=134, 371.58826pt x 181.8795pt>
 File: dfd.png Graphic file (type png)
 <use dfd.png>
-Package pdftex.def Info: dfd.png  used on input line 477.
+Package pdftex.def Info: dfd.png  used on input line 644.
 (pdftex.def)             Requested size: 452.9679pt x 221.72614pt.
-<dfd1.png, id=118, 600.44325pt x 239.09325pt>
+<dfd1.png, id=135, 600.44325pt x 239.09325pt>
 File: dfd1.png Graphic file (type png)
 <use dfd1.png>
-Package pdftex.def Info: dfd1.png  used on input line 484.
+Package pdftex.def Info: dfd1.png  used on input line 651.
 (pdftex.def)             Requested size: 452.9679pt x 180.37018pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[10 <./usecase.png> <./dfd.png>]
-<activity.png, id=124, 346.29375pt x 341.47575pt>
+[15 <./usecase.png> <./dfd.png>]
+<activity.png, id=142, 346.29375pt x 341.47575pt>
 File: activity.png Graphic file (type png)
 <use activity.png>
-Package pdftex.def Info: activity.png  used on input line 492.
+Package pdftex.def Info: activity.png  used on input line 659.
 (pdftex.def)             Requested size: 452.9679pt x 446.67998pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[11 <./dfd1.png>]
-<sequence.png, id=129, 1765.59625pt x 807.015pt>
+[16 <./dfd1.png>]
+<sequence.png, id=147, 1765.59625pt x 807.015pt>
 File: sequence.png Graphic file (type png)
 <use sequence.png>
-Package pdftex.def Info: sequence.png  used on input line 500.
+Package pdftex.def Info: sequence.png  used on input line 667.
 (pdftex.def)             Requested size: 441.39798pt x 201.75325pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[17 <./activity.png>]
 
-
-[12 <./activity.png>]
-
-[13 <./sequence.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[14]
-
-[15]
-<1.jpeg, id=146, 1606.0pt x 742.775pt>
-File: 1.jpeg Graphic file (type jpg)
-<use 1.jpeg>
-Package pdftex.def Info: 1.jpeg  used on input line 577.
-(pdftex.def)             Requested size: 497.85486pt x 230.25786pt.
-
-Overfull \hbox (44.88696pt too wide) in paragraph at lines 577--578
- [][] 
- []
-
-<2.jpeg, id=147, 1606.0pt x 512.91624pt>
-File: 2.jpeg Graphic file (type jpg)
-<use 2.jpeg>
-Package pdftex.def Info: 2.jpeg  used on input line 583.
-(pdftex.def)             Requested size: 497.85486pt x 159.0024pt.
-
-Overfull \hbox (44.88696pt too wide) in paragraph at lines 583--584
- [][] 
- []
-
-
-
-[16 <./1.jpeg> <./2.jpeg>]
+[18 <./sequence.png>]
 Chapter 5.
+<3.png, id=156, 1926.44719pt x 833.36343pt>
+File: 3.png Graphic file (type png)
+<use 3.png>
+Package pdftex.def Info: 3.png  used on input line 680.
+(pdftex.def)             Requested size: 452.9679pt x 195.94215pt.
+<4.png, id=157, 1926.44719pt x 893.58844pt>
+File: 4.png Graphic file (type png)
+<use 4.png>
+Package pdftex.def Info: 4.png  used on input line 686.
+(pdftex.def)             Requested size: 452.9679pt x 210.10239pt.
 
 
-[17
+[19
 
-]
+ <./3.png>]
+<5.png, id=162, 1926.44719pt x 894.34125pt>
+File: 5.png Graphic file (type png)
+<use 5.png>
+Package pdftex.def Info: 5.png  used on input line 692.
+(pdftex.def)             Requested size: 452.9679pt x 210.27939pt.
+<6.png, id=163, 1808.25563pt x 450.18187pt>
+File: 6.png Graphic file (type png)
+<use 6.png>
+Package pdftex.def Info: 6.png  used on input line 697.
+(pdftex.def)             Requested size: 452.9679pt x 112.765pt.
+<7.png, id=164, 1544.01843pt x 595.47469pt>
+File: 7.png Graphic file (type png)
+<use 7.png>
+Package pdftex.def Info: 7.png  used on input line 702.
+(pdftex.def)             Requested size: 452.9679pt x 174.69128pt.
+<8.png, id=165, 1870.73906pt x 937.25156pt>
+File: 8.png Graphic file (type png)
+<use 8.png>
+Package pdftex.def Info: 8.png  used on input line 707.
+(pdftex.def)             Requested size: 452.9679pt x 226.93285pt.
 
-[18]
 
-[19]
-
-[20
-
-]
-Chapter 6.
-File: 1.jpeg Graphic file (type jpg)
-<use 1.jpeg>
-Package pdftex.def Info: 1.jpeg  used on input line 657.
-(pdftex.def)             Requested size: 452.9679pt x 209.49431pt.
-File: 2.jpeg Graphic file (type jpg)
-<use 2.jpeg>
-Package pdftex.def Info: 2.jpeg  used on input line 662.
-(pdftex.def)             Requested size: 452.9679pt x 144.6643pt.
-<12.jpeg, id=163, 1606.0pt x 702.625pt>
+[20 <./4.png> <./5.png> <./6.png>]
+<12.jpeg, id=172, 1606.0pt x 702.625pt>
 File: 12.jpeg Graphic file (type jpg)
 <use 12.jpeg>
-Package pdftex.def Info: 12.jpeg  used on input line 667.
+Package pdftex.def Info: 12.jpeg  used on input line 712.
 (pdftex.def)             Requested size: 452.9679pt x 198.17029pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[21]
+[21 <./7.png> <./8.png>]
 
 [22 <./12.jpeg>]
-Chapter 7.
+Chapter 6.
 
 
 [23
@@ -595,15 +535,13 @@ Chapter 7.
 [26
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 696--697
-[]\OT1/cmr/m/n/10 RSNA In-tracra-nial Aneurysm De-tec-tion Dataset. Kag-gle. Av
-ail-able at:
+Underfull \hbox (badness 10000) in paragraph at lines 745--746
+[]\OT1/cmr/m/n/10 RSNA In-tracra-nial Aneurysm De-tec-tion Dataset. Kag-gle. Avail-able at:
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 702--703
-[]\OT1/cmr/m/n/10 Deep learning-based cere-bral aneurysm de-tec-tion with CT an
--giog-ra-phy. \OT1/cmr/m/it/10 PubMed Cen-tral
+Underfull \hbox (badness 2680) in paragraph at lines 751--752
+[]\OT1/cmr/m/n/10 Deep learning-based cere-bral aneurysm de-tec-tion with CT an-giog-ra-phy. \OT1/cmr/m/it/10 PubMed Cen-tral
  []
 
 
@@ -615,26 +553,17 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4143 strings out of 473523
- 67090 string characters out of 5714630
- 474070 words of memory out of 5000000
- 27327 multiletter control sequences out of 15000+600000
- 563478 words of font info for 52 fonts, out of 8000000 for 9000
+ 4193 strings out of 473523
+ 68056 string characters out of 5714630
+ 473084 words of memory out of 5000000
+ 27374 multiletter control sequences out of 15000+600000
+ 563777 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,10n,79p,1949b,290s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Rayan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1000.pk><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Rayan/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Rayan/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Rayan/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Latex-KTUProjectBTechNov24Update.pdf (49 pages, 10793844 byte
-s).
+ 65i,11n,79p,1992b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Rayan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Latex-KTUProjectBTechNov24Update.pdf (49 pages, 12131429 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
+ 238 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

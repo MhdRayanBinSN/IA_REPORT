@@ -7,25 +7,32 @@
 \contentsline {section}{\numberline {3.2}\textbf {A Survey of Intracranial Aneurysm Detection and Segmentation}}{5}{}%
 \contentsline {section}{\numberline {3.3}\textbf {A Deep-Learning Model for Intracranial Aneurysm Detection on CT Angiography Images in China}}{6}{}%
 \contentsline {section}{\numberline {3.4}\textbf {IntrA: 3D Intracranial Aneurysm Dataset for Deep Learning}}{6}{}%
-\contentsline {chapter}{\numberline {4}System Analysis}{7}{}%
-\contentsline {paragraph}{}{7}{}%
-\contentsline {section}{\numberline {4.1}Existing System}{7}{}%
-\contentsline {section}{\numberline {4.2}Proposed System}{8}{}%
-\contentsline {subsection}{\numberline {4.2.1}Overview}{8}{}%
-\contentsline {subsection}{\numberline {4.2.2}Advantages}{8}{}%
-\contentsline {subsection}{\numberline {4.2.3}System Architecture}{9}{}%
-\contentsline {section}{\numberline {4.3}Design Diagrams}{10}{}%
-\contentsline {subsection}{\numberline {4.3.1}Use Case Diagram}{10}{}%
-\contentsline {subsection}{\numberline {4.3.2}Data Flow Diagram}{10}{}%
-\contentsline {subsection}{\numberline {4.3.3}Activity Diagram}{12}{}%
-\contentsline {subsection}{\numberline {4.3.4}Sequence Diagram}{13}{}%
-\contentsline {section}{\numberline {4.4}Hardware and Software Requirements}{14}{}%
-\contentsline {section}{\numberline {4.5}Project Scheduling}{15}{}%
-\contentsline {section}{\numberline {4.6}GUI Design}{16}{}%
-\contentsline {chapter}{\numberline {5}System Implementation}{17}{}%
-\contentsline {section}{\numberline {5.1}Modules}{17}{}%
-\contentsline {chapter}{\numberline {6}Results}{21}{}%
-\contentsline {section}{\numberline {6.1}Application windows}{21}{}%
-\contentsline {chapter}{\numberline {7}Conclusion }{23}{}%
+\contentsline {section}{\numberline {3.5}\textbf {Deep Learning–Based Cerebral Aneurysm Detection: Key Studies}}{6}{}%
+\contentsline {section}{\numberline {3.6}\textbf {Systematic Review of Deep Learning Methods for Intracranial Aneurysm Detection in CTA}}{6}{}%
+\contentsline {section}{\numberline {3.7}\textbf {Multi-centric AI Model for Unruptured Intracranial Aneurysm Detection and Volumetric Segmentation in 3D TOF-MRI}}{7}{}%
+\contentsline {section}{\numberline {3.8}\textbf {Deep Learning-Based Detection and Localization of Intracranial Aneurysms in CTA}}{7}{}%
+\contentsline {section}{\numberline {3.9}\textbf {Automated Detection of Intracranial Aneurysms using 3D TOF-MRA}}{7}{}%
+\contentsline {section}{\numberline {3.10}\textbf {Validation of an Automated ML Algorithm for the Detection and Analysis of Cerebral Aneurysms}}{7}{}%
+\contentsline {chapter}{\numberline {4}System Analysis and Design}{9}{}%
+\contentsline {paragraph}{}{9}{}%
+\contentsline {section}{\numberline {4.1}Existing System}{9}{}%
+\contentsline {section}{\numberline {4.2}Proposed System}{10}{}%
+\contentsline {subsection}{\numberline {4.2.1}Overview}{10}{}%
+\contentsline {subsection}{\numberline {4.2.2}Advantages}{10}{}%
+\contentsline {subsection}{\numberline {4.2.3}System Architecture}{11}{}%
+\contentsline {subsection}{\numberline {4.2.4}Modules}{11}{}%
+\contentsline {section}{\numberline {4.3}Hardware and Software Requirements}{13}{}%
+\contentsline {subsection}{\numberline {4.3.1}Software Requirements}{13}{}%
+\contentsline {subsection}{\numberline {4.3.2}Hardware Requirements}{13}{}%
+\contentsline {section}{\numberline {4.4}Project Scheduling}{14}{}%
+\contentsline {section}{\numberline {4.5}Design Diagrams}{15}{}%
+\contentsline {subsection}{\numberline {4.5.1}Use Case Diagram}{15}{}%
+\contentsline {subsection}{\numberline {4.5.2}Data Flow Diagram}{15}{}%
+\contentsline {subsection}{\numberline {4.5.3}Activity Diagram}{17}{}%
+\contentsline {subsection}{\numberline {4.5.4}Sequence Diagram}{18}{}%
+\contentsline {chapter}{\numberline {5}System Implementation}{19}{}%
+\contentsline {section}{\numberline {5.1}Results}{19}{}%
+\contentsline {chapter}{\numberline {6}Conclusion and Future Scope}{23}{}%
 \contentsline {paragraph}{}{23}{}%
+\contentsline {chapter}{Publications}{25}{}%
 \contentsline {chapter}{Bibliography}{25}{}%

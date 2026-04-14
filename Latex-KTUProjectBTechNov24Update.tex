@@ -27,6 +27,7 @@
 \usepackage{float}
 \usepackage[margin=1in]{geometry}
 \usepackage{array}
+\raggedbottom
 
 \renewcommand{\thefigure}{\thesubsection.\arabic{figure}}
 
@@ -55,6 +56,8 @@
 \linespread{1.5}
 
 
+
+
 \begin{document}
 
 
@@ -78,7 +81,7 @@ Submitted by \\
 
 
  The A P J Abdul Kalam Technological University \\
- \vspace{0.2cm}\hspace{0.3cm}\includegraphics[scale=0.3]{ktu.png} \\
+ \vspace{0.2cm}\hspace{0.3cm}\includegraphics[scale=0.6]{ktu.png} \\
 in partial fulfillment of the requirements for the award of the Degree \\
 of\\
 Bachelor of Technology \\
@@ -91,7 +94,7 @@ COMPUTER SCIENCE AND ENGINEERING
 
 \vspace{0.2cm}
 
-\includegraphics[scale=0.06]{cape.png}
+\includegraphics[scale=0.09]{cape.png}
 
 \textbf{DEPT. OF COMPUTER SCIENCE \& ENGINEERING}\\
 (NBA Accredited 2022-2025)\\
@@ -140,7 +143,7 @@ To impart quality technical education to students at undergraduate level through
 \chapter*{\centering \large Program Educational Objectives (PEO)}
 \begin{table}[ht]
     \centering
-    \begin{tabular}{p{2cm} p{15cm}}
+    \begin{tabular}{p{2cm} p{13cm}}
     \textbf{PEO1}\;& Have sound knowledge and technical skills required to remain productive in the field of Computer Science and Engineering. \\
     \textbf {PEO2} \;&  Be efficient team leaders, effective communicators and successful entrepreneurs.  \\
     \textbf {PEO3}\; & Resolve technical problems with a positive outlook towards well-being of the society. \\
@@ -157,7 +160,7 @@ To impart quality technical education to students at undergraduate level through
 \chapter*{\centering \large Program Specific Outcomes (PSO)}
 \begin{table}[ht]
     \centering
-    \begin{tabular}{p{2cm} p{15cm}}
+    \begin{tabular}{p{2cm} p{13cm}}
     \textbf {PSO1}\; &Ability to appreciate, learn and develop applications using modern programming languages, and databases. \\
     \textbf {PSO2}\; & Ability to understand and analyze computer networks, distributed systems and computer system architectures for the designing of new systems.  \\
     \textbf {PSO3}\; & Ability to apply knowledge of domains like machine learning, cloud computing , image processing, data mining and software engineering to tackle innovative problems.  \\
@@ -235,7 +238,7 @@ AJAS AJMAL
 This is to certify that the report entitled \textbf{ \large "RESUME BUILDER" } submitted by \textbf{ Alen Sebastian (KGR22CS012), Muhammed Rayan   (KGR22CS066),Subash M          (KGR20CS090),Tobin Tom  (KGR20CS094),Ajas ajmal(LKGR22CS101)} to the APJ Abdul Kalam Technological University in partial fulfillment of the B.Tech. degree in Computer Science and Engineering is a bonafide record of the project work carried out by these students under our
 guidance and supervision. This report in any form has not been submitted to any other University or Institute for any purpose.
 \fi
-This is to certify that the report entitled \textbf{ \large "Intracranial Aneurysm Detection" } submitted by \textbf{Alen Sebastian (KGR22CS012),Muhammed Rayan(KGR22CS066),Subash M(KGR22CS090),\\Tobin Tom(KGR22CS094),Ajas Ajmal(LKGR22CS101)} to the APJ Abdul Kalam Technological University in partial fulfillment of the B.Tech. degree in Computer Science and Engineering is a bonafide record of the project work carried out by this student under our
+This is to certify that the report entitled \textbf{ \large "Intracranial Aneurysm Detection" } submitted by \textbf{Alen Sebastian (KGR22CS012), Muhammed Rayan (KGR22CS066), Subash M (KGR22CS090), Tobin Tom (KGR22CS094), Ajas Ajmal (LKGR22CS101)} to the APJ Abdul Kalam Technological University in partial fulfillment of the B.Tech. degree in Computer Science and Engineering is a bonafide record of the project work carried out by this student under our
 guidance and supervision. This report in any form has not been submitted to any other University or Institute for any purpose.
 %\fi
 
@@ -338,6 +341,26 @@ Intracranial aneurysms are pathological dilations of cerebral arteries that can 
 
 \thispagestyle{empty} 
 
+%header and footer
+\fancypagestyle{plain}{%  first page of chapters
+    \fancyhf{} % clear all header and footer fields
+    \fancyfoot[LE, RO]{\thepage}
+    \fancyfoot[LO, RE]{\small Dept.of CSE, CE Kidangoor}
+    \renewcommand{\headrulewidth}{0pt} % no rule
+}
+\pagestyle{plain} % apply the style
+\fancypagestyle{fancy}{%  all pages
+    \renewcommand{\headrulewidth}{0.1pt}% Line at the header visible
+    
+    \fancyhf{} % clear all header and footer fields
+    \fancyhead[LE, RO]{\leftmark}
+    \fancyhead[LO, RE]{Intracranial Aneurysm Detection}
+    %\fancyhead[LO, RE]{\small Dept.of CSE, CE Kidangoor}
+    \renewcommand{\footrulewidth}{0pt}% Line at the footer visible
+    \fancyfoot[LE, RO]{\thepage}
+    \fancyfoot[LO, RE]{\small Dept.of CSE, CE Kidangoor}
+}
+\pagestyle{fancy} % apply the style 
 
 
 
@@ -377,26 +400,51 @@ Intracranial aneurysms are typically asymptomatic until rupture, making early au
 
 
 \chapter{Literature Review}
-
 AI-based medical imaging systems have recently gained significant attention for improving diagnostic accuracy and efficiency. With the increasing complexity of brain imaging data, automated detection of intracranial aneurysms has become an important research focus. These systems aim to assist radiologists by rapidly identifying and localizing aneurysms, reducing diagnostic errors, and improving patient outcomes.
-\section{\textbf{Toward human intervention-free clinical diagnosis of intracranial aneurysm via deep neural network}}
-Develop an AI system to automatically detect and segment brain aneurysms from CT scans without manual preprocessing, helping radiologists diagnose faster and more accurately.it has Two-stage approach: First, analyze the whole brain scan to find high-risk areas where aneurysms are likely. Second, zoom into small patches at full resolution to precisely segment aneurysms. Uses 3D patching strategy to handle large medical images.Algorithms used here are 3D U-Net (image segmentation), 3D CNN (to extract features from brain scans), Custom loss function (to handle small targets and uncertain boundaries)
-
+\section{\textbf{Toward human intervention-free clinical diagnosis of intracranial aneurysm  via deep neural network}}
+\sloppy
+Develop an AI system to automatically detect and segment brain aneurysms from CT scans without manual preprocessing, helping radiologists diagnose faster and more accurately. It has Two-stage approach: First, analyze the whole brain scan to find high-risk areas where aneurysms are likely. Second, zoom into small patches at full resolution to precisely segment aneurysms. Uses 3D patching strategy to handle large medical images. Algorithms used here are 3D U-Net (image segmentation), 3D CNN (to extract features from brain scans), Custom loss function (to handle small targets and uncertain boundaries)
 
 \section{\textbf{A Survey of Intracranial Aneurysm Detection and Segmentation}}
+\sloppy
 Classify approaches based on input data (3D geometric, volumetric, 2D images)
-Identify trends, challenges, and future directions in CAD systems for intracranial aneurysm analysis.Here the methods proposed are Selection criteria: semi-automated or automated methods for IA detection, isolation, or segmentation
-Exclusion: aortic aneurysms, retinal microaneurysms, manual annotation methods.Algorithms such as 3D U-Net, ResNet, DeepMedic, nnU-Net, Faster R-CNN, MeshCNN, PointNet, PointNet++, Transformers are used.
+Identify trends, challenges, and future directions in CAD systems for intracranial aneurysm analysis. Here the methods proposed are Selection criteria: semi-automated or automated methods for IA detection, isolation, or segmentation
+Exclusion: aortic aneurysms, retinal microaneurysms, manual annotation methods. Algorithms such as 3D U-Net, ResNet, DeepMedic, nnU-Net, Faster R-CNN, MeshCNN, PointNet, PointNet++, Transformers are used.
 
 \section{\textbf{A Deep-Learning Model for Intracranial Aneurysm Detection on CT Angiography Images in China}}
-To develop and validate an AI model for detecting intracranial aneurysms on CTA scans.Methods used here are Two-stage deep-learning system—global detection and local fine segmentation across multiple hospitals.Algorithms such as Cascaded deep-learning neural networks (nnU-Net–based) with 3D CTA image training and data augmentation.
+\sloppy
+To develop and validate an AI model for detecting intracranial aneurysms on CTA scans. Methods used here are Two-stage deep-learning system---global detection and local fine segmentation across multiple hospitals. Algorithms such as Cascaded deep-learning neural networks (nnU-Net--based) with 3D CTA image training and data augmentation.
 
+\section{\textbf{IntrA: 3D Intracranial Aneurysm Dataset for  Deep Learning}}
+\sloppy
+To create an open-access, annotated 3D intracranial aneurysm dataset (IntrA) that supports the development, training, and benchmarking of deep learning models for diagnosis and segmentation of aneurysms using realistic 3D vessel structures. Algorithm used here are PointNet, PointNet++, SO-Net, PointCNN, SpiderCNN, DGCNN, MeshCNN, and related geometric deep learning models.
 
-\section{\textbf{IntrA: 3D Intracranial Aneurysm Dataset for Deep Learning}}
-To create an open-access, annotated 3D intracranial aneurysm dataset (IntrA) that supports the development, training, and benchmarking of deep learning models for diagnosis and segmentation of aneurysms using realistic 3D vessel structures.Algorithm used here are PointNet, PointNet++, SO-Net, PointCNN, SpiderCNN, DGCNN, MeshCNN, and related geometric deep learning models.
+\section{\textbf{Deep Learning–Based Cerebral Aneurysm Detection: Key Studies}}
+\sloppy
+To reduce false positives in aneurysm detection on TOF-MRA scans while maintaining high sensitivity. Methods used include a multidimensional CNN (MD-CNN) with two branches—one processes 2D maximum-intensity-projection images and the other processes 3D volumetric data. Algorithms used are 3D-CNN for volumetric feature extraction and MD-CNN, which combines both 2D and 3D information. Dataset consists of TOF-MRA data from multiple hospitals with thousands of patients and annotated aneurysms. Evaluation metrics include Free-response ROC (FROC) and sensitivity (true positive rate).
+
+\section{\textbf{Systematic Review of Deep Learning Methods for Intracranial Aneurysm Detection in CTA}}
+\sloppy
+To analyze and summarize deep learning methods for detecting intracranial aneurysms in CTA images. Methods follow PRISMA guidelines and QUADAS-2 for quality assessment, with meta-analysis on detection performance. Algorithms include U-Net variants (3D U-Net, ResUNet), encoder–decoder models, and classification networks like ResNet and DeepMedic. Dataset includes thousands of CTA scans with annotated aneurysms collected from multiple studies. Metrics used are sensitivity, specificity, and false positives per image to evaluate model performance.
+
+\section{\textbf{Multi-centric AI Model for Unruptured Intracranial Aneurysm Detection and Volumetric Segmentation in 3D TOF-MRI}}
+\sloppy
+To develop an AI model for detecting and measuring unruptured brain aneurysms using 3D TOF-MRI scans. Methods include training models on both institutional and public datasets (Aneurysm ProPer, ADAM) and comparing detection and measurement performance. The algorithm used is nnU-Net, a self-configuring U-Net-based segmentation model. Dataset consists of hundreds of 3D TOF-MRI scans from multiple patients. Metrics used are sensitivity, lesion-wise Dice score, IoU (IoU/NSD), and maximum diameter difference, along with statistical tests for validation.
+
+\section{\textbf{Deep Learning-Based Detection and Localization of Intracranial Aneurysms in CTA}}
+\sloppy
+To develop an automated deep learning system for detecting intracranial aneurysms in CTA images, improving accuracy and reducing manual effort. Methods use a two-stage framework: first, a 3D Region Proposal Network (RPN) generates candidate regions, followed by a 3D DenseNet classifier to refine detection and reduce false positives. Algorithms used are 3D RPN and 3D DenseNet. Dataset includes CTA scans collected from multiple hospitals over several years. Metrics used are sensitivity and false positive rate, showing high accuracy especially for aneurysms larger than 3 mm.
+
+\section{\textbf{Automated Detection of Intracranial Aneurysms using 3D TOF-MRA}}
+\sloppy
+To develop a deep learning framework for accurate detection and segmentation of intracranial aneurysms using 3D TOF-MRA images, while handling data imbalance. Methods use a skeleton-based 3D patch learning approach, where blood vessels are skeletonized to extract candidate regions, followed by a modified 3D U-Net with an auxiliary classification branch to reduce false positives. Algorithms include modified 3D U-Net, skeleton-based feature extraction, and Dice + cross-entropy loss functions. Dataset includes internal hospital data and external ADAM dataset with annotated aneurysms. Metrics used are accuracy, sensitivity, specificity, PPV, NPV, and Dice Similarity Coefficient (DSC).
+
+\section{\textbf{Validation of an Automated ML Algorithm for the Detection and Analysis of Cerebral Aneurysms}}
+\sloppy
+To validate a deep learning-based CNN model for detecting and analyzing intracranial aneurysms in CTA images in a clinical setting. Methods involve a multi-stage pipeline: a classification CNN first detects candidate regions, followed by a segmentation CNN to refine results and reduce false positives, with final decisions based on combined probabilities. Algorithms used are deep CNN models for detection and segmentation. Dataset includes thousands of CTA scans for training and validation, with both aneurysm and non-aneurysm cases. Metrics used are sensitivity, specificity, PPV, accuracy, ROC curve analysis, and confidence intervals for performance evaluation.
 
 \begin{flushleft}
-\chapter{System Analysis}
+\chapter{System Analysis and Design}
 \end{flushleft}
 
 \paragraph{}
@@ -460,6 +508,125 @@ Architecture}}
 \end{figure}
 
 
+\subsection{Modules}
+\hspace{1.5cm}
+
+\medskip\noindent
+\textbf{Module 1: Data Processing Pipeline}
+
+\noindent This module is responsible for ingesting raw DICOM brain scans and transforming them into standardized inputs suitable for both deep learning models.
+
+\noindent\textbf{Key Components:}
+\begin{itemize}
+  \item \textbf{DICOM Ingestor:} Parses raw DICOM directories for CTA, MRA, MRI T1, and MRI T2 modalities. Handles missing metadata, sorts DICOM instances by slice location, and reconstructs 3D volumetric tensors.
+  \item \textbf{nnU-Net Preprocessing Branch:} Applies Hounsfield unit clipping, Z-score intensity normalization, and isotropic resampling to 0.5mm voxel spacing. Performs ROI cropping around the brain volume for efficient 3D inference.
+  \item \textbf{MedGemma Preprocessing Branch:} Converts individual DICOM slices to RGB images using modality-specific windowing (e.g., Center: 40, Width: 400 for CTA). Stacks three consecutive slices as a multi-slice context window before feeding to the vision-language model.
+  \item \textbf{Modality Detector:} Automatically identifies the imaging modality from DICOM metadata to route the scan through the correct preprocessing and inference pipeline.
+\end{itemize}
+
+
+\medskip\noindent
+\textbf{Module 2: AI Inference Engine}
+
+\noindent This is the core analytics module implementing and evaluating two independent deep learning models for aneurysm detection and localization.
+
+\noindent\textbf{Key Components:}
+\begin{itemize}
+  \item \textbf{nnU-Net Blob Regression Model:} A 3D Residual Encoder U-Net configured by nnU-Net. Instead of predicting bounding boxes, it generates 14 volumetric heatmaps --- one per 13 anatomical locations plus a global detection channel. Peak voxel intensity in each heatmap encodes aneurysm presence and 3D spatial coordinates. The model was trained for 1,500 epochs using TopK Binary Cross-Entropy loss and SGD optimizer with polynomial learning rate decay.
+  \item \textbf{MedGemma 4B-it Inference Module:} Google's multimodal medical vision-language model, loaded in 4-bit NF4 quantization. Analyzes 2D scan slices using structured chain-of-thought prompting with modality-specific system prompts. A BiomedCLIP pre-filter provides an initial confidence score for ensembling. Outputs structured natural language findings describing detection results per anatomical region.
+  \item \textbf{Result Aggregator:} Parses heatmap peak coordinates from the nnU-Net output and maps them to the 13 anatomical labels. Parses MedGemma's structured text output to extract per-location detection findings. Both results are unified into a common JSON schema for the API response.
+\end{itemize}
+
+
+\medskip\noindent
+\textbf{Module 3: Backend API Layer}
+
+\noindent The backend exposes the AI inference engine via a REST API built with FastAPI and served using Uvicorn.
+
+\noindent\textbf{Key Components:}
+\begin{itemize}
+  \item \textbf{Inference Orchestrator:} Manages the end-to-end flow from DICOM upload through preprocessing, model inference, and result aggregation. Loads and caches PyTorch model checkpoints on startup.
+  \item \textbf{REST Endpoints:} \texttt{POST /upload} receives DICOM ZIP archives; \texttt{POST /predict} triggers the full inference pipeline and returns detection results as structured JSON including per-location heatmap scores and MedGemma findings.
+  \item \textbf{Docker Containerization:} The backend and frontend services are defined in a Docker Compose configuration for reproducible environment setup across different machines.
+\end{itemize}
+
+
+\medskip\noindent
+\textbf{Module 4: Frontend Interface}
+
+\noindent The frontend is a React 18 web application built with Vite, providing an interface for uploading scans, viewing results, and comparing model outputs.
+
+\noindent\textbf{Key Components:}
+\begin{itemize}
+  \item \textbf{DICOM Upload Panel:} Allows users to select and upload a DICOM series ZIP file. Displays upload progress and triggers inference on submission.
+  \item \textbf{Medical Image Viewer:} Renders reconstructed 2D slices from the 3D volume in the browser, with scroll-through navigation across the Z-axis.
+  \item \textbf{Results Dashboard:} Displays per-location detection scores from the nnU-Net heatmaps across all 13 anatomical regions, alongside the structured natural language findings generated by MedGemma for the same scan.
+  \item \textbf{Model Comparison View:} Presents outputs of both models side-by-side, enabling direct qualitative comparison of the volumetric detection approach versus the vision-language model approach.
+\end{itemize}
+
+
+
+\section{Hardware and Software Requirements}
+
+\subsection{Software Requirements}
+\begin{verbatim}
+DEEP LEARNING FRAMEWORK        - PyTorch 2.1 (CUDA-enabled)
+MEDICAL SEGMENTATION FRAMEWORK - nnU-Net v2 (self-configuring 3D U-Net)
+VISION-LANGUAGE MODEL          - MedGemma 4B-it (google/medgemma-4b-it)
+MODEL SERVING / QUANTIZATION   - HuggingFace Transformers 4.40+,
+                                 BitsAndBytes (4-bit NF4 quantization)
+BIOMEDICAL VISION ENCODER      - BiomedCLIP (microsoft/BiomedCLIP-PubMedBERT)
+MEDICAL IMAGING TOOLKIT        - pydicom 2.4, SimpleITK 2.3
+BACKEND API FRAMEWORK          - FastAPI (Uvicorn ASGI server)
+FRONTEND FRAMEWORK             - React 18 (Vite)
+CONTAINERIZATION               - Docker, Docker Compose
+GPU ACCELERATION               - CUDA Toolkit 12.1, cuDNN 8.9
+\end{verbatim}
+
+\subsection{Hardware Requirements}
+\begin{verbatim}
+PROCESSOR   - Intel Core i7 / AMD Ryzen 7 (multi-core, 3.5 GHz+)
+RAM         - 16 GB minimum
+GPU         - NVIDIA RTX 3060 (6 GB VRAM) or higher
+STORAGE     - 1 TB  SSD
+INTERNET    - High-speed connection (for HuggingFace model download)
+\end{verbatim}
+
+
+\vspace{-0.6cm}
+
+\clearpage
+\section{Project Scheduling}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|>{\centering\arraybackslash}m{6cm}|>{\centering\arraybackslash}m{6cm}|>{\centering\arraybackslash}m{5cm}|}
+        \hline
+        \textbf{Task} & \textbf{Task Description} & \textbf{Time Slot} \\
+        \hline
+        Data Pipeline & DICOM Preprocessing, Dataset Analysis and Visualization & Dec 8 -- Dec 15 \\
+        \hline
+        Baseline Model & 3D Residual Encoder U-Net Setup and Initial Training & Dec 15 -- Dec 25 \\
+        \hline
+        Blob Regression & Heatmap Target Generation using Euclidean Distance Transform & Dec 25 -- Jan 5 \\
+        \hline
+        nnU-Net Training & Full nnU-Net Configuration, TopK BCE Loss and 1500-Epoch Training & Jan 5 -- Jan 25 \\
+        \hline
+        MedGemma Integration & Multi-Modality Inference, Chain-of-Thought Prompting and BiomedCLIP Ensembling & Jan 25 -- Feb 10 \\
+        \hline
+        Model Evaluation & Comparative Evaluation of nnU-Net and MedGemma across All Modalities & Feb 10 -- Feb 20 \\
+        \hline
+        Backend and Frontend & FastAPI Inference Server, React Dashboard and DICOM Viewer & Feb 20 -- Mar 1 \\
+        \hline
+        Finalization & Full System Integration, Testing and Documentation & Mar 1 -- Mar 5 \\
+        \hline
+    \end{tabular}
+      \caption{Project Timeline}
+    \label{tab:PrjctTimLin}
+\end{table}
+
+
+
+
 \section{Design Diagrams}
 
 \subsection{Use Case Diagram}
@@ -503,173 +670,51 @@ Architecture}}
 \end{figure}
 
 
-\newpage
-\section{Hardware and Software Requirements}
-
-\textbf{SOFTWARE REQUIREMENTS}
-
-\begin{verbatim}
-DEEP LEARNING FRAMEWORK        - PyTorch 2.1 (CUDA-enabled)
-MEDICAL SEGMENTATION FRAMEWORK - nnU-Net v2 (self-configuring 3D U-Net)
-VISION-LANGUAGE MODEL          - MedGemma 4B-it (google/medgemma-4b-it)
-MODEL SERVING / QUANTIZATION   - HuggingFace Transformers 4.40+,
-                                 BitsAndBytes (4-bit NF4 quantization)
-BIOMEDICAL VISION ENCODER      - BiomedCLIP (microsoft/BiomedCLIP-PubMedBERT)
-MEDICAL IMAGING TOOLKIT        - pydicom 2.4, SimpleITK 2.3
-BACKEND API FRAMEWORK          - FastAPI (Uvicorn ASGI server)
-FRONTEND FRAMEWORK             - React 18 (Vite)
-CONTAINERIZATION               - Docker, Docker Compose
-GPU ACCELERATION               - CUDA Toolkit 12.1, cuDNN 8.9
-\end{verbatim}
-
-\vspace{0.3cm}
-\textbf{HARDWARE REQUIREMENTS}
-
-\begin{verbatim}
-PROCESSOR   - Intel Core i7 / AMD Ryzen 7 (multi-core, 3.5 GHz+)
-RAM         - 16 GB minimum
-GPU         - NVIDIA RTX 3060 (6 GB VRAM) or higher
-STORAGE     - 1 TB  SSD
-
-INTERNET    - High-speed connection (for HuggingFace model download)
-\end{verbatim}
-
-
-\vspace{-0.6cm}
-
-%\newpage
-
-
-\section{Project Scheduling}
-\begin{table}[H]
-    \centering
-    \caption{Project Timeline}
-    \begin{tabular}{|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{6cm}|>{\centering\arraybackslash}m{5cm}|}
-        \hline
-        \textbf{Task} & \textbf{Task Description} & \textbf{Time Slot} \\
-        \hline
-        Data Pipeline & DICOM Preprocessing, Dataset Analysis and Visualization & Dec 8 -- Dec 15 \\
-        \hline
-        Baseline Model & 3D Residual Encoder U-Net Setup and Initial Training & Dec 15 -- Dec 25 \\
-        \hline
-        Blob Regression & Heatmap Target Generation using Euclidean Distance Transform & Dec 25 -- Jan 5 \\
-        \hline
-        nnU-Net Training & Full nnU-Net Configuration, TopK BCE Loss and 1500-Epoch Training & Jan 5 -- Jan 25 \\
-        \hline
-        MedGemma Integration & Multi-Modality Inference, Chain-of-Thought Prompting and BiomedCLIP Ensembling & Jan 25 -- Feb 10 \\
-        \hline
-        Model Evaluation & Comparative Evaluation of nnU-Net and MedGemma across All Modalities & Feb 10 -- Feb 20 \\
-        \hline
-        Backend and Frontend & FastAPI Inference Server, React Dashboard and DICOM Viewer & Feb 20 -- Mar 1 \\
-        \hline
-        Finalization & Full System Integration, Testing and Documentation & Mar 1 -- Mar 5 \\
-        \hline
-    \end{tabular}
-    \label{tab:PrjctTimLin}
-\end{table}
-
-\newpage
-\section {GUI Design}
-\begin{flushleft}
-	\begin{figure}[H]
-		\centering
-		
-		\includegraphics[scale=0.31]{1.jpeg}  
-		\caption{} % Description above the image   
-	\end{figure}
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[scale=0.31]{2.jpeg}   
-		\caption{} % Description above the image  
-	\end{figure}
-	\end{flushleft}
-
-
 \chapter{System Implementation}
 
 The project has been developed using Python and PyTorch for the deep learning pipeline, FastAPI for the backend API server, and React with Vite for the frontend interface. The project is containerized using Docker Compose for consistent deployment. The implementation is organized into four core modules.
 
-\section{Modules}
-\hspace{1.5cm}
+\section{Results}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{3.png}
+    \caption{\textit{Detection Result Page}}
+	\end{figure}
 
-\medskip\noindent
-\textbf{Module 1: Data Processing Pipeline}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{4.png}
+    \caption{\textit{Detection Page - Detected Slice Numbers}}
+	\end{figure}
 
-\noindent This module is responsible for ingesting raw DICOM brain scans and transforming them into standardized inputs suitable for both deep learning models.
-
-\noindent\textbf{Key Components:}
-\begin{itemize}
-  \item \textbf{DICOM Ingestor:} Parses raw DICOM directories for CTA, MRA, MRI T1, and MRI T2 modalities. Handles missing metadata, sorts DICOM instances by slice location, and reconstructs 3D volumetric tensors.
-  \item \textbf{nnU-Net Preprocessing Branch:} Applies Hounsfield unit clipping, Z-score intensity normalization, and isotropic resampling to 0.5mm voxel spacing. Performs ROI cropping around the brain volume for efficient 3D inference.
-  \item \textbf{MedGemma Preprocessing Branch:} Converts individual DICOM slices to RGB images using modality-specific windowing (e.g., Center: 40, Width: 400 for CTA). Stacks three consecutive slices as a multi-slice context window before feeding to the vision-language model.
-  \item \textbf{Modality Detector:} Automatically identifies the imaging modality from DICOM metadata to route the scan through the correct preprocessing and inference pipeline.
-\end{itemize}
-
-
-\medskip\noindent
-\textbf{Module 2: AI Inference Engine}
-
-\noindent This is the core analytics module implementing and evaluating two independent deep learning models for aneurysm detection and localization.
-
-\noindent\textbf{Key Components:}
-\begin{itemize}
-  \item \textbf{nnU-Net Blob Regression Model:} A 3D Residual Encoder U-Net configured by nnU-Net. Instead of predicting bounding boxes, it generates 14 volumetric heatmaps — one per 13 anatomical locations plus a global detection channel. Peak voxel intensity in each heatmap encodes aneurysm presence and 3D spatial coordinates. The model was trained for 1,500 epochs using TopK Binary Cross-Entropy loss and SGD optimizer with polynomial learning rate decay.
-  \item \textbf{MedGemma 4B-it Inference Module:} Google's multimodal medical vision-language model, loaded in 4-bit NF4 quantization. Analyzes 2D scan slices using structured chain-of-thought prompting with modality-specific system prompts. A BiomedCLIP pre-filter provides an initial confidence score for ensembling. Outputs structured natural language findings describing detection results per anatomical region.
-  \item \textbf{Result Aggregator:} Parses heatmap peak coordinates from the nnU-Net output and maps them to the 13 anatomical labels. Parses MedGemma's structured text output to extract per-location detection findings. Both results are unified into a common JSON schema for the API response.
-\end{itemize}
-
-
-\medskip\noindent
-\textbf{Module 3: Backend API Layer}
-
-\noindent The backend exposes the AI inference engine via a REST API built with FastAPI and served using Uvicorn.
-
-\noindent\textbf{Key Components:}
-\begin{itemize}
-  \item \textbf{Inference Orchestrator:} Manages the end-to-end flow from DICOM upload through preprocessing, model inference, and result aggregation. Loads and caches PyTorch model checkpoints on startup.
-  \item \textbf{REST Endpoints:} \texttt{POST /upload} receives DICOM ZIP archives; \texttt{POST /predict} triggers the full inference pipeline and returns detection results as structured JSON including per-location heatmap scores and MedGemma findings.
-  \item \textbf{Docker Containerization:} The backend and frontend services are defined in a Docker Compose configuration for reproducible environment setup across different machines.
-\end{itemize}
-
-
-\medskip\noindent
-\textbf{Module 4: Frontend Interface}
-
-\noindent The frontend is a React 18 web application built with Vite, providing an interface for uploading scans, viewing results, and comparing model outputs.
-
-\noindent\textbf{Key Components:}
-\begin{itemize}
-  \item \textbf{DICOM Upload Panel:} Allows users to select and upload a DICOM series ZIP file. Displays upload progress and triggers inference on submission.
-  \item \textbf{Medical Image Viewer:} Renders reconstructed 2D slices from the 3D volume in the browser, with scroll-through navigation across the Z-axis.
-  \item \textbf{Results Dashboard:} Displays per-location detection scores from the nnU-Net heatmaps across all 13 anatomical regions, alongside the structured natural language findings generated by MedGemma for the same scan.
-  \item \textbf{Model Comparison View:} Presents outputs of both models side-by-side, enabling direct qualitative comparison of the volumetric detection approach versus the vision-language model approach.
-\end{itemize}
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{5.png}
+    \caption{\textit{Upload Page}}
+	\end{figure}
+  \begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{6.png}
+    \caption{\textit{Console when BE turn ON}}
+	\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{7.png}
+    \caption{\textit{After Upload Series}}
+	\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{8.png}
+    \caption{\textit{After Upload Series in console}}
+	\end{figure}
+  \begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{12.jpeg}
+    \caption{\textit{MedGemma Results}}
+	\end{figure}
 
 \begin{flushleft}
-\chapter{Results}
-\end{flushleft}
-
-\section{Application windows}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{1.jpeg}     
-	\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{2.jpeg}     
-	\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{12.jpeg}     
-	\end{figure}
-
-
-\begin{flushleft}
-\chapter{Conclusion }
+\chapter{Conclusion and Future Scope}
 \end{flushleft}
 \paragraph{}
 \hspace{1.5cm}
@@ -677,7 +722,11 @@ Deep learning can effectively detect and localize intracranial aneurysms, assist
 
 \pagestyle{empty}
 
-\chapter*{Bibliography}
+\chapter*{Publications}
+\addcontentsline{toc}{chapter}{Publications}
+
+
+
 \addcontentsline{toc}{chapter}{Bibliography}
 \begin{thebibliography}{99}
 
@@ -704,22 +753,6 @@ Deep learning can effectively detect and localize intracranial aneurysms, assist
 \end{thebibliography}
 
 \end{document}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
