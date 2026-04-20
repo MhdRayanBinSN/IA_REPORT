@@ -54,6 +54,8 @@ INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.c
 INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex\latex\tocloft\tocloft.sty
+INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex\latex\tocloft\tocloft.sty
 INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
 INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
 INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
@@ -122,9 +124,9 @@ INPUT .\Latex-KTUProjectBTechNov24Update.lof
 INPUT Latex-KTUProjectBTechNov24Update.lof
 INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 OUTPUT Latex-KTUProjectBTechNov24Update.lof
-INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\Rayan\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT .\system.png

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.24)  14 APR 2026 21:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.24)  20 APR 2026 18:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -173,34 +173,73 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \extratabsurround=\skip69
 \backup@length=\skip70
 \ar@cellbox=\box57
+) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip71
+\cftbeforetoctitleskip=\skip72
+\cftaftertoctitleskip=\skip73
+\cftbeforepartskip=\skip74
+\cftpartnumwidth=\skip75
+\cftpartindent=\skip76
+\cftbeforechapskip=\skip77
+\cftchapindent=\skip78
+\cftchapnumwidth=\skip79
+\cftbeforesecskip=\skip80
+\cftsecindent=\skip81
+\cftsecnumwidth=\skip82
+\cftbeforesubsecskip=\skip83
+\cftsubsecindent=\skip84
+\cftsubsecnumwidth=\skip85
+\cftbeforesubsubsecskip=\skip86
+\cftsubsubsecindent=\skip87
+\cftsubsubsecnumwidth=\skip88
+\cftbeforeparaskip=\skip89
+\cftparaindent=\skip90
+\cftparanumwidth=\skip91
+\cftbeforesubparaskip=\skip92
+\cftsubparaindent=\skip93
+\cftsubparanumwidth=\skip94
+\cftbeforeloftitleskip=\skip95
+\cftafterloftitleskip=\skip96
+\cftbeforefigskip=\skip97
+\cftfigindent=\skip98
+\cftfignumwidth=\skip99
+\c@lofdepth=\count287
+\c@lotdepth=\count288
+\cftbeforelottitleskip=\skip100
+\cftafterlottitleskip=\skip101
+\cftbeforetabskip=\skip102
+\cfttabindent=\skip103
+\cfttabnumwidth=\skip104
 ) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count287
-\c@Blindtext=\count288
-\c@blind@countparstart=\count289
-\blind@countxx=\count290
-\blindtext@numBlindtext=\count291
-\blind@countyy=\count292
-\c@blindlist=\count293
-\c@blindlistlevel=\count294
-\c@blindlist@level=\count295
-\blind@listitem=\count296
-\c@blind@listcount=\count297
-\c@blind@levelcount=\count298
-\blind@mathformula=\count299
-\blind@Mathformula=\count300
-\c@blind@randomcount=\count301
-\c@blind@randommax=\count302
-\c@blind@pangramcount=\count303
-\c@blind@pangrammax=\count304
+\c@blindtext=\count289
+\c@Blindtext=\count290
+\c@blind@countparstart=\count291
+\blind@countxx=\count292
+\blindtext@numBlindtext=\count293
+\blind@countyy=\count294
+\c@blindlist=\count295
+\c@blindlistlevel=\count296
+\c@blindlist@level=\count297
+\blind@listitem=\count298
+\c@blind@listcount=\count299
+\c@blind@levelcount=\count300
+\blind@mathformula=\count301
+\blind@Mathformula=\count302
+\c@blind@randomcount=\count303
+\c@blind@randommax=\count304
+\c@blind@pangramcount=\count305
+\c@blind@pangrammax=\count306
 ) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2025-01-18 L3 programming layer (loader) 
  (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count305
+\l__color_backend_stack_int=\count307
 \l__pdf_internal_box=\box58
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
@@ -208,39 +247,39 @@ Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 Package: xparse 2024-08-16 L3 Experimental document command parser
 ) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count306
+\etb@tempcnta=\count308
 ))
 Patched makeschapterhead
 Patched @makechapterhead
 (Latex-KTUProjectBTechNov24Update.aux)
 \openout1 = `Latex-KTUProjectBTechNov24Update.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
  (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count307
+\scratchcounter=\count309
 \scratchdimen=\dimen167
 \scratchbox=\box59
-\nofMPsegments=\count308
-\nofMParguments=\count309
+\nofMPsegments=\count310
+\nofMParguments=\count311
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count310
+\MPscratchCnt=\count312
 \MPscratchDim=\dimen168
-\MPnumerator=\count311
-\makeMPintoPDFobject=\count312
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
 \everyMPtoPDFconversion=\toks29
 ) (C:\Users\Rayan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -285,12 +324,12 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <ktu.png, id=1, 121.45375pt x 182.6825pt>
 File: ktu.png Graphic file (type png)
 <use ktu.png>
-Package pdftex.def Info: ktu.png  used on input line 84.
-(pdftex.def)             Requested size: 72.87279pt x 109.61034pt.
+Package pdftex.def Info: ktu.png  used on input line 94.
+(pdftex.def)             Requested size: 60.72672pt x 91.34102pt.
 <cape.png, id=3, 1541.76pt x 1027.84pt>
 File: cape.png Graphic file (type png)
 <use cape.png>
-Package pdftex.def Info: cape.png  used on input line 97.
+Package pdftex.def Info: cape.png  used on input line 107.
 (pdftex.def)             Requested size: 138.75241pt x 92.5016pt.
 
 
@@ -330,7 +369,7 @@ Package pdftex.def Info: cape.png  used on input line 97.
 <cape.PNG, id=47, 1541.76pt x 1027.84pt>
 File: cape.PNG Graphic file (type png)
 <use cape.PNG>
-Package pdftex.def Info: cape.PNG  used on input line 231.
+Package pdftex.def Info: cape.PNG  used on input line 241.
 (pdftex.def)             Requested size: 154.18503pt x 102.79001pt.
 
 
@@ -346,25 +385,17 @@ Package pdftex.def Info: cape.PNG  used on input line 231.
 
 [1]
 
-[2] (Latex-KTUProjectBTechNov24Update.toc
-
-[1
-
-])
+[2] (Latex-KTUProjectBTechNov24Update.toc)
 \tf@toc=\write3
 \openout3 = `Latex-KTUProjectBTechNov24Update.toc'.
 
+ (Latex-KTUProjectBTechNov24Update.lof
 
-
-[2] (Latex-KTUProjectBTechNov24Update.lof)
+[1])
 \tf@lof=\write4
 \openout4 = `Latex-KTUProjectBTechNov24Update.lof'.
 
 
-
-[3
-
-]
 
 [0]
 Chapter 1.
@@ -387,14 +418,14 @@ Chapter 2.
 ]
 Chapter 3.
 
-Overfull \hbox (9.92812pt too wide) in paragraph at lines 404--404
+Overfull \hbox (9.92812pt too wide) in paragraph at lines 416--416
 []\OT1/cmr/bx/n/14.4 Toward hu-man intervention-free clin-i-cal di-ag-no-sis of in-tracra-
  []
 
 
 
 [5]
-Underfull \hbox (badness 4001) in paragraph at lines 430--430
+Underfull \hbox (badness 4001) in paragraph at lines 442--442
 []\OT1/cmr/bx/n/14.4 Multi-centric AI Model for Un-rup-tured In-tracra-nial
  []
 
@@ -413,10 +444,10 @@ Chapter 4.
 ]
 
 [10]
-<system.png, id=118, 1861.95625pt x 1005.7575pt>
+<system.png, id=111, 1861.95625pt x 1005.7575pt>
 File: system.png Graphic file (type png)
 <use system.png>
-Package pdftex.def Info: system.png  used on input line 504.
+Package pdftex.def Info: system.png  used on input line 515.
 (pdftex.def)             Requested size: 452.9679pt x 244.6709pt.
 
 
@@ -425,45 +456,45 @@ Package pdftex.def Info: system.png  used on input line 504.
 [12]
 
 [13]
-Overfull \hbox (68.3289pt too wide) in paragraph at lines 602--623
+Overfull \hbox (11.4234pt too wide) in paragraph at lines 613--634
  [][] 
  []
 
-<usecase.png, id=130, 1628.0825pt x 932.48375pt>
+<usecase.png, id=124, 1628.0825pt x 932.48375pt>
 File: usecase.png Graphic file (type png)
 <use usecase.png>
-Package pdftex.def Info: usecase.png  used on input line 636.
+Package pdftex.def Info: usecase.png  used on input line 647.
 (pdftex.def)             Requested size: 407.01962pt x 233.12036pt.
 
 
 [14
 
 ]
-<dfd.png, id=134, 371.58826pt x 181.8795pt>
+<dfd.png, id=128, 371.58826pt x 181.8795pt>
 File: dfd.png Graphic file (type png)
 <use dfd.png>
-Package pdftex.def Info: dfd.png  used on input line 644.
+Package pdftex.def Info: dfd.png  used on input line 655.
 (pdftex.def)             Requested size: 452.9679pt x 221.72614pt.
-<dfd1.png, id=135, 600.44325pt x 239.09325pt>
+<dfd1.png, id=129, 600.44325pt x 239.09325pt>
 File: dfd1.png Graphic file (type png)
 <use dfd1.png>
-Package pdftex.def Info: dfd1.png  used on input line 651.
+Package pdftex.def Info: dfd1.png  used on input line 662.
 (pdftex.def)             Requested size: 452.9679pt x 180.37018pt.
 
 
 [15 <./usecase.png> <./dfd.png>]
-<activity.png, id=142, 346.29375pt x 341.47575pt>
+<activity.png, id=135, 346.29375pt x 341.47575pt>
 File: activity.png Graphic file (type png)
 <use activity.png>
-Package pdftex.def Info: activity.png  used on input line 659.
+Package pdftex.def Info: activity.png  used on input line 670.
 (pdftex.def)             Requested size: 452.9679pt x 446.67998pt.
 
 
 [16 <./dfd1.png>]
-<sequence.png, id=147, 1765.59625pt x 807.015pt>
+<sequence.png, id=140, 1765.59625pt x 807.015pt>
 File: sequence.png Graphic file (type png)
 <use sequence.png>
-Package pdftex.def Info: sequence.png  used on input line 667.
+Package pdftex.def Info: sequence.png  used on input line 678.
 (pdftex.def)             Requested size: 441.39798pt x 201.75325pt.
 
 
@@ -471,48 +502,48 @@ Package pdftex.def Info: sequence.png  used on input line 667.
 
 [18 <./sequence.png>]
 Chapter 5.
-<3.png, id=156, 1926.44719pt x 833.36343pt>
+<3.png, id=150, 1926.44719pt x 833.36343pt>
 File: 3.png Graphic file (type png)
 <use 3.png>
-Package pdftex.def Info: 3.png  used on input line 680.
+Package pdftex.def Info: 3.png  used on input line 691.
 (pdftex.def)             Requested size: 452.9679pt x 195.94215pt.
-<4.png, id=157, 1926.44719pt x 893.58844pt>
+<4.png, id=151, 1926.44719pt x 893.58844pt>
 File: 4.png Graphic file (type png)
 <use 4.png>
-Package pdftex.def Info: 4.png  used on input line 686.
+Package pdftex.def Info: 4.png  used on input line 697.
 (pdftex.def)             Requested size: 452.9679pt x 210.10239pt.
 
 
 [19
 
  <./3.png>]
-<5.png, id=162, 1926.44719pt x 894.34125pt>
+<5.png, id=156, 1926.44719pt x 894.34125pt>
 File: 5.png Graphic file (type png)
 <use 5.png>
-Package pdftex.def Info: 5.png  used on input line 692.
+Package pdftex.def Info: 5.png  used on input line 703.
 (pdftex.def)             Requested size: 452.9679pt x 210.27939pt.
-<6.png, id=163, 1808.25563pt x 450.18187pt>
+<6.png, id=157, 1808.25563pt x 450.18187pt>
 File: 6.png Graphic file (type png)
 <use 6.png>
-Package pdftex.def Info: 6.png  used on input line 697.
+Package pdftex.def Info: 6.png  used on input line 708.
 (pdftex.def)             Requested size: 452.9679pt x 112.765pt.
-<7.png, id=164, 1544.01843pt x 595.47469pt>
+<7.png, id=158, 1544.01843pt x 595.47469pt>
 File: 7.png Graphic file (type png)
 <use 7.png>
-Package pdftex.def Info: 7.png  used on input line 702.
+Package pdftex.def Info: 7.png  used on input line 713.
 (pdftex.def)             Requested size: 452.9679pt x 174.69128pt.
-<8.png, id=165, 1870.73906pt x 937.25156pt>
+<8.png, id=159, 1870.73906pt x 937.25156pt>
 File: 8.png Graphic file (type png)
 <use 8.png>
-Package pdftex.def Info: 8.png  used on input line 707.
+Package pdftex.def Info: 8.png  used on input line 718.
 (pdftex.def)             Requested size: 452.9679pt x 226.93285pt.
 
 
 [20 <./4.png> <./5.png> <./6.png>]
-<12.jpeg, id=172, 1606.0pt x 702.625pt>
+<12.jpeg, id=166, 1606.0pt x 702.625pt>
 File: 12.jpeg Graphic file (type jpg)
 <use 12.jpeg>
-Package pdftex.def Info: 12.jpeg  used on input line 712.
+Package pdftex.def Info: 12.jpeg  used on input line 723.
 (pdftex.def)             Requested size: 452.9679pt x 198.17029pt.
 
 
@@ -535,12 +566,12 @@ Chapter 6.
 [26
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 745--746
+Underfull \hbox (badness 10000) in paragraph at lines 765--766
 []\OT1/cmr/m/n/10 RSNA In-tracra-nial Aneurysm De-tec-tion Dataset. Kag-gle. Avail-able at:
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 751--752
+Underfull \hbox (badness 2680) in paragraph at lines 771--772
 []\OT1/cmr/m/n/10 Deep learning-based cere-bral aneurysm de-tec-tion with CT an-giog-ra-phy. \OT1/cmr/m/it/10 PubMed Cen-tral
  []
 
@@ -553,17 +584,17 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4193 strings out of 473523
- 68056 string characters out of 5714630
- 473084 words of memory out of 5000000
- 27374 multiletter control sequences out of 15000+600000
+ 4481 strings out of 473523
+ 72568 string characters out of 5714630
+ 478256 words of memory out of 5000000
+ 27658 multiletter control sequences out of 15000+600000
  563777 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,11n,79p,1992b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 65i,11n,79p,1992b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Rayan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Rayan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Latex-KTUProjectBTechNov24Update.pdf (49 pages, 12131429 bytes).
+Output written on Latex-KTUProjectBTechNov24Update.pdf (47 pages, 12131918 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
+ 231 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -27,9 +27,19 @@
 \usepackage{float}
 \usepackage[margin=1in]{geometry}
 \usepackage{array}
+\usepackage{tocloft}
+\setlength{\cftfignumwidth}{4em} % Increase space for long figure numbers
+
 \raggedbottom
 
-\renewcommand{\thefigure}{\thesubsection.\arabic{figure}}
+\counterwithin{figure}{subsection}
+\renewcommand{\thefigure}{%
+  \ifnum\value{subsection}>0\relax
+    \thesubsection.\arabic{figure}%
+  \else
+    \thesection.\arabic{figure}%
+  \fi
+}
 
 %The below Section make chapter and its name to center of the page
 \usepackage{blindtext}
@@ -81,7 +91,7 @@ Submitted by \\
 
 
  The A P J Abdul Kalam Technological University \\
- \vspace{0.2cm}\hspace{0.3cm}\includegraphics[scale=0.6]{ktu.png} \\
+ \vspace{0.2cm}\hspace{0.3cm}\includegraphics[scale=0.5]{ktu.png} \\
 in partial fulfillment of the requirements for the award of the Degree \\
 of\\
 Bachelor of Technology \\
@@ -100,7 +110,7 @@ COMPUTER SCIENCE AND ENGINEERING
 (NBA Accredited 2022-2025)\\
 \textbf {COLLEGE OF ENGINEERING KIDANGOOR}\\
 
-\textbf{OCTOBER 2025}\\
+\textbf{APRIL 2026}\\
 \pagenumbering{gobble}
 \end{center}
 
@@ -189,7 +199,7 @@ University and can also evoke penal action from the sources which have thus not 
 \vspace{1 cm}
                          
 Kidangoor \\
-23-10-2025\\
+07-04-2026\\
 
 \end{flushleft} 
 \end{minipage}
@@ -347,6 +357,7 @@ Intracranial aneurysms are pathological dilations of cerebral arteries that can 
     \fancyfoot[LE, RO]{\thepage}
     \fancyfoot[LO, RE]{\small Dept.of CSE, CE Kidangoor}
     \renewcommand{\headrulewidth}{0pt} % no rule
+    \renewcommand{\footrulewidth}{0.4pt} % footer border line
 }
 \pagestyle{plain} % apply the style
 \fancypagestyle{fancy}{%  all pages
@@ -356,7 +367,7 @@ Intracranial aneurysms are pathological dilations of cerebral arteries that can 
     \fancyhead[LE, RO]{\leftmark}
     \fancyhead[LO, RE]{Intracranial Aneurysm Detection}
     %\fancyhead[LO, RE]{\small Dept.of CSE, CE Kidangoor}
-    \renewcommand{\footrulewidth}{0pt}% Line at the footer visible
+    \renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
     \fancyfoot[LE, RO]{\thepage}
     \fancyfoot[LO, RE]{\small Dept.of CSE, CE Kidangoor}
 }
@@ -368,7 +379,7 @@ Intracranial aneurysms are pathological dilations of cerebral arteries that can 
 
 
 
-\newpage
+
 
 \begin{flushleft}
 \pagenumbering{arabic}
@@ -400,6 +411,7 @@ Intracranial aneurysms are typically asymptomatic until rupture, making early au
 
 
 \chapter{Literature Review}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 AI-based medical imaging systems have recently gained significant attention for improving diagnostic accuracy and efficiency. With the increasing complexity of brain imaging data, automated detection of intracranial aneurysms has become an important research focus. These systems aim to assist radiologists by rapidly identifying and localizing aneurysms, reducing diagnostic errors, and improving patient outcomes.
 \section{\textbf{Toward human intervention-free clinical diagnosis of intracranial aneurysm  via deep neural network}}
 \sloppy
@@ -443,6 +455,7 @@ To develop a deep learning framework for accurate detection and segmentation of 
 \sloppy
 To validate a deep learning-based CNN model for detecting and analyzing intracranial aneurysms in CTA images in a clinical setting. Methods involve a multi-stage pipeline: a classification CNN first detects candidate regions, followed by a segmentation CNN to refine results and reduce false positives, with final decisions based on combined probabilities. Algorithms used are deep CNN models for detection and segmentation. Dataset includes thousands of CTA scans for training and validation, with both aneurysm and non-aneurysm cases. Metrics used are sensitivity, specificity, PPV, accuracy, ROC curve analysis, and confidence intervals for performance evaluation.
 
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
 \begin{flushleft}
 \chapter{System Analysis and Design}
 \end{flushleft}
@@ -494,16 +507,14 @@ Two deep learning models are implemented and comparatively evaluated. The first 
 
 
 \subsection{System Architecture}
-\setcounter{figure}{0}
-\renewcommand{\thefigure}{\thesubsection.\arabic{figure}}
-\counterwithin{figure}{chapter}
+
 
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{system.png}
 \caption{\textit{
-Architecture}}
+System Architecture}}
 \label{fig:SystemArchitecture}
 \end{figure}
 
@@ -599,7 +610,7 @@ INTERNET    - High-speed connection (for HuggingFace model download)
 \section{Project Scheduling}
 \begin{table}[H]
     \centering
-    \begin{tabular}{|>{\centering\arraybackslash}m{6cm}|>{\centering\arraybackslash}m{6cm}|>{\centering\arraybackslash}m{5cm}|}
+    \begin{tabular}{|>{\centering\arraybackslash}m{4cm}|>{\centering\arraybackslash}m{6cm}|>{\centering\arraybackslash}m{5cm}|}
         \hline
         \textbf{Task} & \textbf{Task Description} & \textbf{Time Slot} \\
         \hline
@@ -725,6 +736,15 @@ Deep learning can effectively detect and localize intracranial aneurysms, assist
 \chapter*{Publications}
 \addcontentsline{toc}{chapter}{Publications}
 
+\vspace{1cm}
+\noindent [1] Muhammed Rayan, Alen Sebastian, 
+Tobin Tom, Ajas Ajmal, Subash M, Athira S Nath,
+ Dr. Ojus Thomas Lee. \textbf{Intracranial Aneurysm Detection and Segmentation Using Deep Learning - A Glance into the Methods, Metrics and Challenges.} \textit{Proceedings of the National Conference on Multidisciplinary Approaches in AI \& Sustainable Engineering (NCMASE'26)} .
+
+\vspace{0.5cm}
+\noindent [2] Muhammed Rayan, Alen Sebastian, 
+Tobin Tom, Ajas Ajmal, Subash M, Athira S Nath,
+ Dr. Ojus Thomas Lee. \textbf{Automated Intracranial Aneurysm Detection Using 3-D Residual Encoder U-Net with EDT Blob Regression and Vision-Language Model Analysis.} \textit{5th IEEE International Conference on Signal Processing, Informatics, Communication and Energy Systems 2026} .
 
 
 \addcontentsline{toc}{chapter}{Bibliography}

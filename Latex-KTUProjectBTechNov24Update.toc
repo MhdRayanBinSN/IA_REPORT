@@ -3,6 +3,7 @@
 \contentsline {chapter}{\numberline {2}Problem Statement}{3}{}%
 \contentsline {paragraph}{}{3}{}%
 \contentsline {chapter}{\numberline {3}Literature Review}{5}{}%
+\setcounter {tocdepth}{0}
 \contentsline {section}{\numberline {3.1}\textbf {Toward human intervention-free clinical diagnosis of intracranial aneurysm via deep neural network}}{5}{}%
 \contentsline {section}{\numberline {3.2}\textbf {A Survey of Intracranial Aneurysm Detection and Segmentation}}{5}{}%
 \contentsline {section}{\numberline {3.3}\textbf {A Deep-Learning Model for Intracranial Aneurysm Detection on CT Angiography Images in China}}{6}{}%
@@ -13,6 +14,7 @@
 \contentsline {section}{\numberline {3.8}\textbf {Deep Learning-Based Detection and Localization of Intracranial Aneurysms in CTA}}{7}{}%
 \contentsline {section}{\numberline {3.9}\textbf {Automated Detection of Intracranial Aneurysms using 3D TOF-MRA}}{7}{}%
 \contentsline {section}{\numberline {3.10}\textbf {Validation of an Automated ML Algorithm for the Detection and Analysis of Cerebral Aneurysms}}{7}{}%
+\setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {4}System Analysis and Design}{9}{}%
 \contentsline {paragraph}{}{9}{}%
 \contentsline {section}{\numberline {4.1}Existing System}{9}{}%

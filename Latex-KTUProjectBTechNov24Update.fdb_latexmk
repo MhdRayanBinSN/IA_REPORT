@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1776184101.04827 "c:/Users/Rayan/Desktop/Main Project/Report/Latex-KTUProjectBTechNov24Update.tex" "Latex-KTUProjectBTechNov24Update.pdf" "Latex-KTUProjectBTechNov24Update" 1776184110.48836 0
+["pdflatex"] 1776691124.91473 "c:/Users/Rayan/Desktop/Main Project/Report/Latex-KTUProjectBTechNov24Update.tex" "Latex-KTUProjectBTechNov24Update.pdf" "Latex-KTUProjectBTechNov24Update" 1776691134.45538 0
   "12.jpeg" 1774140684 71525 9c86f84f03aaa4008582ec3f8508bf5b ""
   "3.png" 1776182834 927424 64af40fce7461066a869bdeb64b59563 ""
   "4.png" 1776182861 652600 e520c2ca49642e1f0278c7055c30282d ""
@@ -60,15 +60,16 @@
   "C:/Users/Rayan/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty" 1738237457 6565 f51d809db6193fae7b06c1bc26ca8f75 ""
   "C:/Users/Rayan/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xparse.sty" 1724854269 9783 ab4bee47700c04aadedb8da27591b0ab ""
   "C:/Users/Rayan/AppData/Local/Programs/MiKTeX/tex/latex/ntgclass/a4.sty" 1673622753 3590 84b3e4e53745df51ce7e737e4475abe0 ""
+  "C:/Users/Rayan/AppData/Local/Programs/MiKTeX/tex/latex/tocloft/tocloft.sty" 1578908763 37263 3e78d14f0f4b1a30560fea5e04de805d ""
   "C:/Users/Rayan/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1730400552 14552 27664839421e418b87f56fa4c6f66b1a ""
   "C:/Users/Rayan/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty" 1730400552 4545 e3f4de576c914e2000f07f69a891c071 ""
   "C:/Users/Rayan/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
-  "Latex-KTUProjectBTechNov24Update.aux" 1776184110 7732 61afaf90b584d08a153f3f3944fdbd88 "pdflatex"
-  "Latex-KTUProjectBTechNov24Update.lof" 1776184110 1365 8a7e7513d4a9313c2fc9d31f6b6aa1b7 "pdflatex"
-  "Latex-KTUProjectBTechNov24Update.tex" 1776184092 43320 8bfa648986bc2ba0efc909d04f8210e0 ""
-  "Latex-KTUProjectBTechNov24Update.toc" 1776184110 3123 af08ecdf9f601db08429172f470f9d79 "pdflatex"
+  "Latex-KTUProjectBTechNov24Update.aux" 1776691134 7997 16b1fb81ee09c9e1109c6a1d72eff9bd "pdflatex"
+  "Latex-KTUProjectBTechNov24Update.lof" 1776691134 1452 139ff95935e9b4204d4cdf8c928838ab "pdflatex"
+  "Latex-KTUProjectBTechNov24Update.tex" 1776691124 44402 188adb6aac5eb9149ece7d67b8fe75c5 ""
+  "Latex-KTUProjectBTechNov24Update.toc" 1776691134 3175 e39f709de68809e6e633d1e24a36a437 "pdflatex"
   "activity.png" 1774140684 57551 1e0e3625c11aa4f9af9c3138585c48d0 ""
-  "c:/Users/Rayan/Desktop/Main Project/Report/Latex-KTUProjectBTechNov24Update.tex" 1776184092 43320 8bfa648986bc2ba0efc909d04f8210e0 ""
+  "c:/Users/Rayan/Desktop/Main Project/Report/Latex-KTUProjectBTechNov24Update.tex" 1776691124 44402 188adb6aac5eb9149ece7d67b8fe75c5 ""
   "cape.PNG" 1774140684 2221030 683a280de01631d298e8de9f24cbfe9a ""
   "cape.png" 1774140684 2221030 683a280de01631d298e8de9f24cbfe9a ""
   "dfd.png" 1774140684 12726 2f40f6312bae5352275dea3657f63987 ""
